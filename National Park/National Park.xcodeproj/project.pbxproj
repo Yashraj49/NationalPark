@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AA37E1299FD925009FC04D /* National_ParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37E0299FD925009FC04D /* National_ParkApp.swift */; };
+		E5AA37E3299FD925009FC04D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37E2299FD925009FC04D /* ContentView.swift */; };
+		E5AA37E5299FD926009FC04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AA37E4299FD926009FC04D /* Assets.xcassets */; };
+		E5AA37E8299FD926009FC04D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AA37E7299FD926009FC04D /* Preview Assets.xcassets */; };
+		E5AA37EF299FD9B8009FC04D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37EE299FD9B8009FC04D /* MapView.swift */; };
+		E5AA37F1299FD9CD009FC04D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37F0299FD9CD009FC04D /* CircleImage.swift */; };
+		E5AA37F3299FDB52009FC04D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E5AA37F2299FDB52009FC04D /* landmarkData.json */; };
+		E5AA37F5299FDB68009FC04D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37F4299FDB68009FC04D /* Landmark.swift */; };
+		E5AA37F7299FDBBC009FC04D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37F6299FDBBC009FC04D /* ModelData.swift */; };
+		E5AA37F9299FDBE5009FC04D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37F8299FDBE5009FC04D /* LandmarkRow.swift */; };
+		E5AA37FB299FE79C009FC04D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37FA299FE79C009FC04D /* LandmarkList.swift */; };
+		E5AA3800299FEA9D009FC04D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA37FF299FEA9D009FC04D /* LandmarkDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5AA37DD299FD925009FC04D /* National Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "National Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AA37E0299FD925009FC04D /* National_ParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_ParkApp.swift; sourceTree = "<group>"; };
+		E5AA37E2299FD925009FC04D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5AA37E4299FD926009FC04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5AA37E7299FD926009FC04D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5AA37EE299FD9B8009FC04D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E5AA37F0299FD9CD009FC04D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		E5AA37F2299FDB52009FC04D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		E5AA37F4299FDB68009FC04D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		E5AA37F6299FDBBC009FC04D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E5AA37F8299FDBE5009FC04D /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		E5AA37FA299FE79C009FC04D /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		E5AA37FF299FEA9D009FC04D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AA37DA299FD925009FC04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AA37D4299FD925009FC04D = {
+			isa = PBXGroup;
+			children = (
+				E5AA37DF299FD925009FC04D /* National Park */,
+				E5AA37DE299FD925009FC04D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AA37DE299FD925009FC04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA37DD299FD925009FC04D /* National Park.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AA37DF299FD925009FC04D /* National Park */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA37E0299FD925009FC04D /* National_ParkApp.swift */,
+				E5AA37FC299FE9FD009FC04D /* Views */,
+				E5AA37FD299FEA76009FC04D /* Models */,
+				E5AA37FE299FEA7E009FC04D /* Resources */,
+				E5AA37E6299FD926009FC04D /* Preview Content */,
+			);
+			path = "National Park";
+			sourceTree = "<group>";
+		};
+		E5AA37E6299FD926009FC04D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA37E7299FD926009FC04D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5AA37FC299FE9FD009FC04D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA37E2299FD925009FC04D /* ContentView.swift */,
+				E5AA37F0299FD9CD009FC04D /* CircleImage.swift */,
+				E5AA37EE299FD9B8009FC04D /* MapView.swift */,
+				E5AA37F8299FDBE5009FC04D /* LandmarkRow.swift */,
+				E5AA37FF299FEA9D009FC04D /* LandmarkDetail.swift */,
+				E5AA37FA299FE79C009FC04D /* LandmarkList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5AA37FD299FEA76009FC04D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA37F4299FDB68009FC04D /* Landmark.swift */,
+				E5AA37F6299FDBBC009FC04D /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5AA37FE299FEA7E009FC04D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA37E4299FD926009FC04D /* Assets.xcassets */,
+				E5AA37F2299FDB52009FC04D /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AA37DC299FD925009FC04D /* National Park */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AA37EB299FD926009FC04D /* Build configuration list for PBXNativeTarget "National Park" */;
+			buildPhases = (
+				E5AA37D9299FD925009FC04D /* Sources */,
+				E5AA37DA299FD925009FC04D /* Frameworks */,
+				E5AA37DB299FD925009FC04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "National Park";
+			productName = "National Park";
+			productReference = E5AA37DD299FD925009FC04D /* National Park.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AA37D5299FD925009FC04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E5AA37DC299FD925009FC04D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E5AA37D8299FD925009FC04D /* Build configuration list for PBXProject "National Park" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5AA37D4299FD925009FC04D;
+			productRefGroup = E5AA37DE299FD925009FC04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AA37DC299FD925009FC04D /* National Park */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AA37DB299FD925009FC04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AA37E8299FD926009FC04D /* Preview Assets.xcassets in Resources */,
+				E5AA37E5299FD926009FC04D /* Assets.xcassets in Resources */,
+				E5AA37F3299FDB52009FC04D /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AA37D9299FD925009FC04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AA37E3299FD925009FC04D /* ContentView.swift in Sources */,
+				E5AA37F1299FD9CD009FC04D /* CircleImage.swift in Sources */,
+				E5AA37EF299FD9B8009FC04D /* MapView.swift in Sources */,
+				E5AA37FB299FE79C009FC04D /* LandmarkList.swift in Sources */,
+				E5AA3800299FEA9D009FC04D /* LandmarkDetail.swift in Sources */,
+				E5AA37E1299FD925009FC04D /* National_ParkApp.swift in Sources */,
+				E5AA37F5299FDB68009FC04D /* Landmark.swift in Sources */,
+				E5AA37F9299FDBE5009FC04D /* LandmarkRow.swift in Sources */,
+				E5AA37F7299FDBBC009FC04D /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5AA37E9299FD926009FC04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5AA37EA299FD926009FC04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5AA37EC299FD926009FC04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"National Park/Preview Content\"";
+				DEVELOPMENT_TEAM = QR233K8R9C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yashraj.National-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5AA37ED299FD926009FC04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"National Park/Preview Content\"";
+				DEVELOPMENT_TEAM = QR233K8R9C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yashraj.National-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AA37D8299FD925009FC04D /* Build configuration list for PBXProject "National Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AA37E9299FD926009FC04D /* Debug */,
+				E5AA37EA299FD926009FC04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AA37EB299FD926009FC04D /* Build configuration list for PBXNativeTarget "National Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AA37EC299FD926009FC04D /* Debug */,
+				E5AA37ED299FD926009FC04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AA37D5299FD925009FC04D /* Project object */;
+}
